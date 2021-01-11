@@ -15,6 +15,6 @@ def check_xmas(xmas,preamble_len):
             break
     return 0
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     xmas = [int(number.strip()) for number in open("AdventOfCodeDay09.txt","r")]
     check_xmas(xmas,25)
